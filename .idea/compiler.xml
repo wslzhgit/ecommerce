@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="e_admin" />
+        <module name="e_buycar" />
+        <module name="e_consumer" />
+        <module name="e_eureka1" />
+        <module name="e_eureka2" />
+        <module name="e_model" />
+        <module name="e_mongodb" />
+        <module name="e_orders" />
+        <module name="e_product" />
+        <module name="e_register" />
+        <module name="e_seckill" />
+        <module name="e_service" />
+        <module name="e_solr" />
+        <module name="e_sso" />
+        <module name="e_web" />
+        <module name="e_web_provider1" />
+        <module name="e_web_provider2" />
+        <module name="e_zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="e_admin" target="1.8" />
+      <module name="e_buycar" target="1.8" />
+      <module name="e_consumer" target="1.8" />
+      <module name="e_eureka1" target="1.8" />
+      <module name="e_eureka2" target="1.8" />
+      <module name="e_model" target="1.8" />
+      <module name="e_mongodb" target="1.8" />
+      <module name="e_orders" target="1.8" />
+      <module name="e_product" target="1.8" />
+      <module name="e_register" target="1.8" />
+      <module name="e_seckill" target="1.8" />
+      <module name="e_service" target="1.8" />
+      <module name="e_solr" target="1.8" />
+      <module name="e_sso" target="1.8" />
+      <module name="e_web" target="1.8" />
+      <module name="e_web_provider1" target="1.8" />
+      <module name="e_web_provider2" target="1.8" />
+      <module name="e_zuul" target="1.8" />
+      <module name="ecommerce" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

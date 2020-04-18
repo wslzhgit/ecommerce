@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/e_admin" />
+    <file type="web" url="file://$PROJECT_DIR$/e_buycar" />
+    <file type="web" url="file://$PROJECT_DIR$/e_consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/e_eureka1" />
+    <file type="web" url="file://$PROJECT_DIR$/e_eureka2" />
+    <file type="web" url="file://$PROJECT_DIR$/e_orders" />
+    <file type="web" url="file://$PROJECT_DIR$/e_product" />
+    <file type="web" url="file://$PROJECT_DIR$/e_register" />
+    <file type="web" url="file://$PROJECT_DIR$/e_seckill" />
+    <file type="web" url="file://$PROJECT_DIR$/e_solr" />
+    <file type="web" url="file://$PROJECT_DIR$/e_sso" />
+    <file type="web" url="file://$PROJECT_DIR$/e_web" />
+    <file type="web" url="file://$PROJECT_DIR$/e_web_provider1" />
+    <file type="web" url="file://$PROJECT_DIR$/e_web_provider2" />
+    <file type="web" url="file://$PROJECT_DIR$/e_zuul" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

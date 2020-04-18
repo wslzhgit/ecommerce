@@ -1,0 +1,22 @@
+server:
+  #网关访问的端口
+  port: 8888
+
+spring:
+  #网关模块的名称
+  application:
+    name: e_zuul
+
+eureka:
+  client:
+    service-url:
+      #配置注册的路径
+      defaultZone: http://127.0.0.1:8086/eureka
+
+#配置对外访问的网关
+zuul:
+  routes:
+    #配置e_admin模块的对外访问路径
+    e_admin: /admin/**
+    #配置e_web模块的对外访问路径
+    e_web: /web/**

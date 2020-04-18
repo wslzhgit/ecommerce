@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>thymeleaf模板</title>
+</head>
+<body>
+<div align="center">
+    <p>1.一般属性的取值</p>
+
+    <p style="color:red" th:text="'Hello, ' + ${welcomewords}">文本</p>
+    <hr/>
+    <p>2."th:utext="替换文本</p>
+    <p style="color:green" th:utext="'Hello, ' + ${welcomewords}">即将被替换的文本</p>
+    <p>3.链接路径的取值</p>
+    <a th:href="${url}">查看链接</a>
+</div>
+</body>
+<script th:inline="javascript">
+    //在js中取到数据值
+    // alert('[[${welcomewords}]]');
+    alert('[[${welcomeword}]]');
+</script>
+</html>

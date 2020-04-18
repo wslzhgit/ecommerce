@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/e_admin/e_admin.iml" filepath="$PROJECT_DIR$/e_admin/e_admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_buycar/e_buycar.iml" filepath="$PROJECT_DIR$/e_buycar/e_buycar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_consumer/e_consumer.iml" filepath="$PROJECT_DIR$/e_consumer/e_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_eureka1/e_eureka1.iml" filepath="$PROJECT_DIR$/e_eureka1/e_eureka1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_eureka2/e_eureka2.iml" filepath="$PROJECT_DIR$/e_eureka2/e_eureka2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_model/e_model.iml" filepath="$PROJECT_DIR$/e_model/e_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_mongodb/e_mongodb.iml" filepath="$PROJECT_DIR$/e_mongodb/e_mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_orders/e_orders.iml" filepath="$PROJECT_DIR$/e_orders/e_orders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_product/e_product.iml" filepath="$PROJECT_DIR$/e_product/e_product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_register/e_register.iml" filepath="$PROJECT_DIR$/e_register/e_register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_seckill/e_seckill.iml" filepath="$PROJECT_DIR$/e_seckill/e_seckill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_service/e_service.iml" filepath="$PROJECT_DIR$/e_service/e_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_solr/e_solr.iml" filepath="$PROJECT_DIR$/e_solr/e_solr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_sso/e_sso.iml" filepath="$PROJECT_DIR$/e_sso/e_sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_web/e_web.iml" filepath="$PROJECT_DIR$/e_web/e_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_web_provider1/e_web_provider1.iml" filepath="$PROJECT_DIR$/e_web_provider1/e_web_provider1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_web_provider2/e_web_provider2.iml" filepath="$PROJECT_DIR$/e_web_provider2/e_web_provider2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e_zuul/e_zuul.iml" filepath="$PROJECT_DIR$/e_zuul/e_zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecommerce.iml" filepath="$PROJECT_DIR$/ecommerce.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div align="center">
+      <!-- <p>1.对象属性中的取值</p>
+        <p th:text="'商品编号：' + ${sort.id}"/>
+        <p th:text="'商品名称：' + ${sort.sortname}"/>
+        <p th:text="'创建时间：' + ${sort.updatetime}"/>
+        <p th:text="'创建时间：' + ${#dates.format(sort.updatetime,'yyyy/MM/dd HH:mm:ss')}"/>
+        <hr/>-->
+      <!-- <p>2.set和list的取值</p>
+        <p th:text="${#sets.contains(names,'boot-0')}"/>
+        <p th:text="${#sets.contains(names,'boot-9')}"/>
+        <p th:text="${#sets.size(names)}"/>
+        <p th:text="${#sets.contains(ids,0)}"/>
+        <p th:text="${ids[1]}"/>
+        <p th:text="${names[1]}"/>
+        <ul th:each="id,index : ${ids}">
+            <li th:text="${id}"></li>
+        </ul>-->
+       <!-- <hr/>
+        <h3>获取内置对象中的数据</h3>
+        <p th:text="${#httpServletRequest.getRemoteAddr()}"/>
+        <p th:text="${#httpServletRequest.getAttribute('requestMessage')}"/>
+        <p th:text="${#httpSession.getId()}"/>
+        <p th:text="${#httpServletRequest.getServletContext().getRealPath('/')}"/>
+        <p th:text="'requestMessage = ' + ${requestMessage}"/>
+        <p th:text="'sessionMessage = ' + ${session.sessionMessage}"/>
+        <p th:text="'applicationMessage = ' + ${application.applicationMessage}"/>
+        <hr/>-->
+
+        <p>逻辑判断</p>
+        <!--小于-->
+        <span th:if="${sort.id lt 1200}">
+        编号小于1200！
+        </span>
+        <!--等于-->
+        <span th:if="${sort.id eq 1200}">
+        编号等于1200！
+        </span>
+        <!--大于-->
+        <span th:if="${sort.id gt 1200}">
+        编号大于1200！
+        </span>
+
+        <hr/>
+        <p>显示页面访问的绝对路径</p>
+        <!--http://localhost:8083-->
+        <p th:text="${#request.getScheme()}+'://'+${#request.getServerName()}+':'+${#request.getServerPort()}"/>
+    </div>
+</body>
+</html>

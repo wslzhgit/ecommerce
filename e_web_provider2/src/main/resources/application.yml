@@ -1,0 +1,21 @@
+server:
+  port: 7072
+
+spring:
+  application:
+    #相同功能模块的所有的提供者必须一样,不要用下划线
+    name: web-provider
+  datasource:
+    url: jdbc:mysql://localhost:3306/db5?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 19960701
+    hikari:
+      maximum-pool-size: 30
+      minimum-idle: 10
+
+eureka:
+  #客户端
+  client:
+    service-url:
+      #注册到注册中心的路径（功能模块可以同时注册到多个注册中心，至少要注册一个）
+      defaultZone: http://127.0.0.1:8086/eureka
